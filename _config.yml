@@ -20,7 +20,7 @@ logo: "/assets/images/logo.png"
 aux_links:
   "Github":
     - "https://github.com/HPC-Heterogeneous-Graph-Algorithms"
-plugins:
+# plugins:
   # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
