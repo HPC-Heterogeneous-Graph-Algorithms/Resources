@@ -9,8 +9,8 @@
 
 title: Resources
 logo: "/assets/images/logo.png"
-  #description: >- # this means to ignore newlines until "baseurl:"
-  #  Hi. Welcome to the IIIT Programming Club! 
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to the Resources Page! 
   #  We are just a bunch of people who love to code and participate in programming contests! 
   #  Programming can be fun, and we are here to prove exactly that. 
 #remote_theme: pmarsceill/just-the-docs
