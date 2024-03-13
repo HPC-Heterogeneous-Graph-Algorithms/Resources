@@ -12,8 +12,9 @@ logo: "/assets/images/logo.png"
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the Resources Page! 
   #  We are just a bunch of people who love to code and participate in programming contests! 
-  #  Programming can be fun, and we are here to prove exactly that. 
-remote_theme: pmarsceill/just-the-docs
+  #  Programming can be fun, and we are here to prove exactly that.
+theme: just-the-docs
+  #remote_theme: pmarsceill/just-the-docs
 # domain: iiit-programming-club.github.io
 # baseurl: "/iiit-programming-club" # the subpath of your site, e.g. /blog
 url: "https://hpc-heterogeneous-graph-algorithms.github.io/Resources/" # the base hostname & protocol for your site, e.g. http://example.com
