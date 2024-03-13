@@ -8,7 +8,7 @@ has_children: false
 
 # High perfomance Computing Resources
 
-Welcome. We are people interested in parallel, distributed and GPU Algorithms. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa
+Welcome. We are people interested in parallel, distributed and GPU Algorithms.
 
 This is resources page of our group.
 
