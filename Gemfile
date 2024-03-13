@@ -13,7 +13,4 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-gem "just-the-docs", "0.8.1" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
-
 gem 'jekyll-include-cache'
