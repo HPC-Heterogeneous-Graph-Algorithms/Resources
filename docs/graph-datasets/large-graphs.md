@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 permalink: /graph-datasets/large-graphs
 has_children: false
-parent: graph-datasets
+parent: Graph-Datasets
 ---
 
 These are graphs with more than 500 million edges.

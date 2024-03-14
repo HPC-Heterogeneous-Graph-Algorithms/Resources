@@ -4,7 +4,7 @@ title: Sources
 nav_order: 1
 permalink: /graph-datasets/source
 has_children: false
-parent: graph-datasets
+parent: Graph-Datasets
 ---
 
 We can generally find real world graphs in the links below:
