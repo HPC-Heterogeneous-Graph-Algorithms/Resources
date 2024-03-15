@@ -27,7 +27,7 @@ These are graphs with more than 500 million edges.
 | [Twitter (MPI)](http://konect.cc/networks/twitter_mpi/)|52,579,682|1,963,263,821|KONECT(tsv)|
 | [uk-2006-06](https://law.di.unimi.it/webdata/uk-2006-06/)|80,644,902|2,481,281,617|DSI-DELIS|
 | [Friendster](http://konect.cc/networks/friendster/)|68,349,466|2,586,147,869|KONECT(tsv)|
-| [MS-BioGraphs MS1](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS1)|43,144,218|2,660,495,200|2,660,495,200|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Webgraph)|
+| [MS-BioGraphs MS1](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS1)|43,144,218|2,660,495,200|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Webgraph)|
 | [mycielskian20](http://sparse.tamu.edu/Mycielski/mycielskian20)|786,431|2,710,370,560|Mycielski 	|
 | [uk-2006-05](https://law.di.unimi.it/webdata/uk-2006-05/)|77,741,046|2,965,197,340|DSI-DELIS|
 | [uk-2006-07](https://law.di.unimi.it/webdata/uk-2006-07/)|96,395,298|3,030,665,444|DSI-DELIS|
