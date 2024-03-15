@@ -27,7 +27,7 @@ These are graphs with more than 500 million edges.
 | [Twitter (MPI)](http://konect.cc/networks/twitter_mpi/)|52,579,682|1,963,263,821|KONECT(tsv)|
 | [uk-2006-06](https://law.di.unimi.it/webdata/uk-2006-06/)|80,644,902|2,481,281,617|DSI-DELIS|
 | [Friendster](http://konect.cc/networks/friendster/)|68,349,466|2,586,147,869|KONECT(tsv)|
-| [MS-BioGraphs MS1](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS1)|43,144,218|2,660,495,200|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Webgraph)|
+| [MS-BioGraphs MS1](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS1)|43,144,218t |2,660,495,200|Protein Mapping (Webgraph)|
 | [mycielskian20](http://sparse.tamu.edu/Mycielski/mycielskian20)|786,431|2,710,370,560|Mycielski 	|
 | [uk-2006-05](https://law.di.unimi.it/webdata/uk-2006-05/)|77,741,046|2,965,197,340|DSI-DELIS|
 | [uk-2006-07](https://law.di.unimi.it/webdata/uk-2006-07/)|96,395,298|3,030,665,444|DSI-DELIS|
@@ -49,17 +49,17 @@ These are graphs with more than 500 million edges.
 | [altavista-2002](https://law.di.unimi.it/webdata/altavista-2002/)|1,413,511,390|6,636,600,779|WebScope|
 | [MOLIERE\_2016](http://sparse.tamu.edu/Sybrandt/MOLIERE_2016)|30,239,687|6,669,254,694|Sybrandt|
 | [AGATHA\_2015](http://sparse.tamu.edu/Sybrandt/AGATHA_2015)|183,964,077|11,588,725,964|Sybrandt|
-| [MS-BioGraphs MSA10](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA10)|1,757,323,526|25,236,632,682|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (WebGraph)|
+| [MS-BioGraphs MSA10](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA10)|1,757,323,526|25,236,632,682|Protein Mapping (WebGraph)|
 | [gsh-2015](https://law.di.unimi.it/webdata/gsh-2015/)|988,490,691|33,877,399,152|web graph|
 | [clueweb12](https://law.di.unimi.it/webdata/clueweb12/)|978,408,098|42,574,107,469|web graph|
 | [uk-2014](https://law.di.unimi.it/webdata/uk-2014/)|787,801,471|47,614,527,250|web graph|
 | [HyperLInk Graph 2014](http://webdatacommons.org/hyperlinkgraph/2014-04/download.html)|1,724,573,718|64,422,807,961| Web Graph|
 | [eu-2015](https://law.di.unimi.it/webdata/eu-2015/)|1,070,557,254|91,792,261,600|web graph|
-| [MS-BioGraphs – MS50](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS50)|585,603,088|124,783,559,600| Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Web Graph|
-| [MS-BioGraphs MSA50](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA50)|1,757,323,526|125,312,536,732|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints(Web Graph)|
+| [MS-BioGraphs – MS50](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS50)|585,603,088|124,783,559,600| Protein Mapping (Web Graph|
+| [MS-BioGraphs MSA50](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA50)|1,757,323,526|125,312,536,732|Protein Mapping(Web Graph)|
 | [HyperLink Graph 2012](http://webdatacommons.org/hyperlinkgraph/2012-08/download.html)|3,563,602,789|128,736,914,167| Web Graph |
-| [MS-BioGraphs – MSA200](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA200)|1,757,323,526|500,444,322,597|Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Web Graph) |
-| [MS-BioGraphs – MS200](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS200)|1,414,493,449|502,930,788,612| Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (Web Graph)|
-| [MS-BioGraphs MSA500](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA500)|1,757,323,526|1,244,904,754,157| Vertices represent proteins and each edge represents the sequence similarity between its two endpoints (WebGraph)|
+| [MS-BioGraphs – MSA200](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA200)|1,757,323,526|500,444,322,597|Protein Mapping (Web Graph) |
+| [MS-BioGraphs – MS200](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS200)|1,414,493,449|502,930,788,612| Protein Mapping (Web Graph)|
+| [MS-BioGraphs MSA500](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MSA500)|1,757,323,526|1,244,904,754,157| Protein Mapping (WebGraph)|
 | [MS-BioGraphs – MS](https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-MS)|1,757,323,526|2,488,069,027,875| Protein-Protein Similarity alignment (Web Graph)|
  
