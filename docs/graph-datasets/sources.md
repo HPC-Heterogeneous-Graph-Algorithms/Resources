@@ -27,6 +27,7 @@ We can generally find real world graphs in the links below:
 - [http://gap.cs.berkeley.edu/datasets.html](http://gap.cs.berkeley.edu/datasets.html)
 - [https://projects.csail.mit.edu/dnd/](https://projects.csail.mit.edu/dnd/)
 - [https://graphchallenge.mit.edu/data-sets](https://graphchallenge.mit.edu/data-sets)
+- [https://snap.stanford.edu/data/links.html](https://snap.stanford.edu/data/links.html)
 
 ## Protein to Protein interactions to graph 
 
