@@ -36,11 +36,12 @@ We can generally find real world graphs in the links below:
 
 ## Extracting webgraph
 
-- [webgraph](https://webgraph.di.unimi.it/)
-- [webgraph source](https://github.com/vigna/webgraph)
-- [Webgraph Documentation](https://webgraph.di.unimi.it/docs/)
-- [webgraph Large source](https://github.com/vigna/webgraph-big) for graphs with vertices greater than $2^{31}$
-- [webgraph Large Documentation](https://webgraph.di.unimi.it/docs-big/)
+- [WebGraph](https://webgraph.di.unimi.it/)
+- [WebGraph source](https://github.com/vigna/webgraph)
+- [WebGraph Documentation](https://webgraph.di.unimi.it/docs/)
+- [WebGraph Large source](https://github.com/vigna/webgraph-big) for graphs with vertices greater than $2^{31}$
+- [WebGraph Large Documentation](https://webgraph.di.unimi.it/docs-big/)
+- [ParaGrapher: Library for accessing WebGraphs in C/C++](https://blogs.qub.ac.uk/DIPSA/ParaGrapher/)
 
 ### Installing
 
