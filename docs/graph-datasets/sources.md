@@ -14,11 +14,12 @@ We can generally find real world graphs in the links below:
 | All datasets combined     | [https://networkrepository.com](https://networkrepository.com)                                |               |
 | spare suit matrix         | [http://sparse.tamu.edu/](http://sparse.tamu.edu/)                                            | .mtx          |
 | SNAP                      | [https://snap.stanford.edu/data/](https://snap.stanford.edu/data/)                        | Edge list(.txt)|
-| LAW                       | [https://law.di.unimi.it/datasets.php]( https://law.di.unimi.it/datasets.php)                     | webgraph  |
-| BioGraphs                 | [https://blogs.qub.ac.uk/dipsa/ms-biographs-ms/](https://blogs.qub.ac.uk/dipsa/ms-biographs-ms/)  | webgraph  |
+| LAW                       | [https://law.di.unimi.it/datasets.php]( https://law.di.unimi.it/datasets.php)                     | WebGraph  |
+| MS-BioGraphs              | [https://blogs.qub.ac.uk/dipsa/ms-biographs-ms/](https://blogs.qub.ac.uk/dipsa/ms-biographs/)     | WebGraph  |
 | Lemur (clueweb09/12/22)   | [https://www.lemurproject.org/clueweb09.php/](https://www.lemurproject.org/clueweb09.php/)        |           |
 | Konect                    | [http://konect.cc/networks/](http://konect.cc/networks/)                                          |           |
-| Hyper Link Graphs         | [http://webdatacommons.org/hyperlinkgraph/](http://webdatacommons.org/hyperlinkgraph/)            | webgraph and edgelist |
+| Hyper Link Graphs         | [http://webdatacommons.org/hyperlinkgraph/](http://webdatacommons.org/hyperlinkgraph/)            | WebGraph and edgelist |
+| Software-Heritage Graphs  | [https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html](https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html)          | WebGraph  |
 
 
 ## Resources:
