@@ -41,6 +41,7 @@ We can generally find real world graphs in the links below:
 - [Webgraph Documentation](https://webgraph.di.unimi.it/docs/)
 - [webgraph Large source](https://github.com/vigna/webgraph-big) for graphs with vertices greater than $2^{31}$
 - [webgraph Large Documentation](https://webgraph.di.unimi.it/docs-big/)
+- [WebGraph @ Rust](https://github.com/vigna/webgraph-rs/)
 
 ### Installing
 
