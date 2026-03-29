@@ -1,6 +1,14 @@
+---
+layout: default
+title: Conference & Journal Dates
+nav_order: 2
+permalink: /conference-journal
+has_children: false
+---
+
 # General Dates of Conferences
 
-| Acronym | Conference Name | Submission Deadline | Confernce Core Ranking | Date of Actual Conference |
+| Acronym | Conference Name | Submission Deadline | Conference Core Ranking | Date of Actual Conference |
 |-|-|-|-|-|
 | HPDC | International Symposium on High-Performance Parallel and Distributed Computing | First week Feb | | July |
 | ICS |  ACM International Conference on Supercomputing | 2nd week Jan/Feb | | June |

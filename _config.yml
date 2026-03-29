@@ -17,7 +17,8 @@ theme: just-the-docs
   #remote_theme: pmarsceill/just-the-docs
 # domain: iiit-programming-club.github.io
 # baseurl: "/iiit-programming-club" # the subpath of your site, e.g. /blog
-url: "https://hpc-heterogeneous-graph-algorithms.github.io/Resources/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Resources" # the subpath of your site
+url: "https://hpc-heterogeneous-graph-algorithms.github.io" # the base hostname & protocol for your site
 aux_links:
   "Github":
     - "https://github.com/HPC-Heterogeneous-Graph-Algorithms"
