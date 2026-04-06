@@ -9,7 +9,7 @@ source 'https://rubygems.org'
 
 # gem "jekyll", "~> 4.3.3" # installed by `gem jekyll`
 # gem "webrick"        # required when using Ruby
-gem "just-the-docs", "0.8.1" # pinned to the current release
+gem "just-the-docs", "0.8.2" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
