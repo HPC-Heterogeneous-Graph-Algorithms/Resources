@@ -62,9 +62,127 @@
     footer.insertBefore(maintainer, footer.firstChild);
   }
 
+  function parseNumericValue(text) {
+    if (!text) return NaN;
+    var cleaned = text.trim().replace(/,/g, '');
+    var match = cleaned.match(/^[-+]?\d+(?:\.\d+)?/);
+    if (!match) return NaN;
+
+    var value = parseFloat(match[0]);
+    if (/ms\b/i.test(cleaned)) return value;
+    if (/s\b/i.test(cleaned) && !/ms\b/i.test(cleaned)) return value * 1000;
+    if (/gb\b/i.test(cleaned)) return value * 1e9;
+    if (/mb\b/i.test(cleaned) && !/ms\b/i.test(cleaned)) return value * 1e6;
+    if (/kb\b/i.test(cleaned)) return value * 1e3;
+    if (/b\b/i.test(cleaned) && !/gb\b/i.test(cleaned)) return value * 1e9;
+    if (/m\b/i.test(cleaned) && !/ms\b/i.test(cleaned)) return value * 1e6;
+    if (/k\b/i.test(cleaned)) return value * 1e3;
+    return value;
+  }
+
+  function getHeaderRow(table) {
+    if (table.tHead && table.tHead.rows.length) return table.tHead.rows[0];
+    return table.rows.length ? table.rows[0] : null;
+  }
+
+  function getBodyRows(table) {
+    if (table.tBodies && table.tBodies.length) {
+      return Array.prototype.slice.call(table.tBodies[0].rows);
+    }
+    return Array.prototype.slice.call(table.rows, 1);
+  }
+
+  function getCellText(row, index) {
+    var cell = row.cells[index];
+    return cell ? cell.textContent.trim() : '';
+  }
+
+  function isNumericColumn(rows, index) {
+    var total = 0;
+    var numeric = 0;
+
+    rows.forEach(function(row) {
+      var text = getCellText(row, index);
+      if (!text) return;
+      total += 1;
+      if (!isNaN(parseNumericValue(text))) numeric += 1;
+    });
+
+    return total > 0 && numeric >= Math.max(2, Math.ceil(total / 2));
+  }
+
+  function sortTableByColumn(table, index) {
+    var headerRow = getHeaderRow(table);
+    if (!headerRow) return;
+
+    var headers = Array.prototype.slice.call(headerRow.cells);
+    var activeHeader = headers[index];
+    var direction = activeHeader.getAttribute('aria-sort') === 'ascending' ? 'descending' : 'ascending';
+    var rows = getBodyRows(table);
+    if (rows.length < 2) return;
+
+    var numeric = isNumericColumn(rows, index);
+    headers.forEach(function(header) {
+      header.removeAttribute('aria-sort');
+    });
+    activeHeader.setAttribute('aria-sort', direction);
+
+    rows.sort(function(rowA, rowB) {
+      var textA = getCellText(rowA, index);
+      var textB = getCellText(rowB, index);
+
+      if (numeric) {
+        var valueA = parseNumericValue(textA);
+        var valueB = parseNumericValue(textB);
+        if (isNaN(valueA) && isNaN(valueB)) return 0;
+        if (isNaN(valueA)) return 1;
+        if (isNaN(valueB)) return -1;
+        return direction === 'ascending' ? valueA - valueB : valueB - valueA;
+      }
+
+      var comparison = textA.localeCompare(textB, undefined, { numeric: true, sensitivity: 'base' });
+      return direction === 'ascending' ? comparison : -comparison;
+    });
+
+    var body = table.tBodies && table.tBodies.length ? table.tBodies[0] : table;
+    rows.forEach(function(row) {
+      body.appendChild(row);
+    });
+  }
+
+  function makeTablesSortable() {
+    document.querySelectorAll('.main-content table').forEach(function(table) {
+      if (table.dataset.sortReady === 'true') return;
+
+      var headerRow = getHeaderRow(table);
+      if (!headerRow || headerRow.cells.length < 2) return;
+
+      table.classList.add('sortable-table');
+      Array.prototype.forEach.call(headerRow.cells, function(headerCell, index) {
+        headerCell.setAttribute('title', 'Click to sort');
+        headerCell.setAttribute('tabindex', '0');
+        headerCell.setAttribute('role', 'button');
+
+        headerCell.addEventListener('click', function() {
+          sortTableByColumn(table, index);
+        });
+
+        headerCell.addEventListener('keydown', function(event) {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            sortTableByColumn(table, index);
+          }
+        });
+      });
+
+      table.dataset.sortReady = 'true';
+    });
+  }
+
   function initSiteEnhancements() {
     ensureThemeToggle();
     ensureMaintainerFooter();
+    makeTablesSortable();
   }
 
   if (document.readyState === 'loading') {
