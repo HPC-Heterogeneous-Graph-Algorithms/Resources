@@ -10,6 +10,7 @@ parent: Graph-Datasets
 These are graphs with more than 500 million edges.
 
 | Graph | Vertices | Edges| Type |
+|---|---|---|---|
 | [gsh-tpd-2015](https://law.di.unimi.it/webdata/gsh-2015-tpd/)|30,809,122|602,119,716|web graph|
 | [arabic-2005](https://law.di.unimi.it/webdata/arabic-2005/)|22,744,080 |639,999,458|web graph|
 | [PubMed](http://konect.cc/networks/bag-pubmed/)|8,341,043|737,869,083| KONECT(tsv)|
